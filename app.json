@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "TrakerApp-Udemy",
+    "name": "Expanses Tracker",
     "slug": "TrakerApp-Udemy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/png-clipart-money-management-expense-android-angle-personal-finance-thumbnail.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/6289296.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/6289296.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fadalallahidoudi.TrakerAppUdemy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03cd867c-fba3-4f2f-a758-ae3a6e6cb944"
+      }
     }
   }
 }
